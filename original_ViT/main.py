@@ -89,9 +89,9 @@ for i, patch_height in enumerate(range(0, img_size, patch_size)):
 fig.suptitle(f"{new_class_names[label]} -> Patchified", fontsize=16)
 # plt.show()
 
-# import random
-# random_indexes = random.sample(range(0, 49), k=5)
-# print(f"Showing random convolutional feature maps from indexes: {random_indexes}")
+import random
+random_indexes = random.sample(range(0, 49), k=5)
+print(f"Showing random convolutional feature maps from indexes: {random_indexes}")
 #
 # # Create plot
 # fig, axs = plt.subplots(nrows=1, ncols=5, figsize=(7, 7))
