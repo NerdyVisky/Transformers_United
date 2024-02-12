@@ -1,1 +1,10 @@
+# Datasets
+data/
 */data/
+
+# Environments
+.idea/
+.code/
+*/.idea/
+*/.code/
+
